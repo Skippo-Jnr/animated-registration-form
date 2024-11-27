@@ -1,0 +1,132 @@
+/*Javascriptpro_*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+*{
+margin:0;  
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+background:#1ED5B9;
+font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+padding:20px;
+width:360px;
+background:#32425B;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+padding:20px 20px 30px 20px;
+}
+
+.container h3{
+text-align:center;
+color:white;
+letter-spacing:4px;
+text-transform:uppercase;
+font-size:20px;
+margin-top:18px;
+font-weight:500;
+}
+
+.container h2{
+text-align:center;        
+text-transform:uppercase;
+color:#1ED5B9;
+letter-spacing:2px;
+font-size:12px;
+margin-top:10px;
+font-weight:400;
+}
+
+.container .input{
+height:65px;   
+width:95%;
+margin:auto;
+margin-top:10px;
+}
+
+.container .first-box{
+margin-top:30px;       
+}
+
+.container .input input{
+display:block;
+all:unset;
+height:50px;
+width:100%;
+border-bottom:1px solid #4E6078;
+margin:auto;
+color:whitesmoke;
+font-size:15px;
+text-transform:uppercase;
+}
+
+.container .input input:focus,
+.container .input input:valid{
+border-color:#1ED5B9;        
+}
+
+.container .input label{
+text-transform:uppercase;
+color:white;
+font-size:12px;
+letter-spacing:1px;
+position:relative;
+top:-35px;
+}
+
+.container .input label span{
+position:relative;
+display:inline-flex;
+transition:.2s ease-in-out;
+letter-spacing:2px;
+}
+
+.container .input input:focus ~ label span, 
+.container .input input:valid ~ label span{
+color:#1ED5B9;     
+transform:translateY(-25px);
+letter-spacing:2px;
+}
+
+.container .create-btn{
+all:unset;  
+height:40px;
+width:95%;
+background:#1ED5B9;
+color:white;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-top:3px; 
+text-transform:uppercase;
+font-size:12px;
+letter-spacing:2px;
+margin:auto;
+cursor:pointer;
+}
+
+.container p{
+color:white;
+text-transform:uppercase;
+text-align:center;
+font-size:8px;
+margin-top:9px;
+letter-spacing:1px;
+}
+
+.container p span{
+padding-left:3px;        
+color:#1ED5B9;
+text-decoration:underline;
+}
+
+::selection{
+background:rgb(100, 149, 237,0.8); 
+color:white;
+}
+
